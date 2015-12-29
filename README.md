@@ -1,6 +1,6 @@
-# ReactEU Mobile App
+# Team Camp App
 
-ReactEurope Mobile App, built with [TouchstoneJS](http://touchstonejs.io)
+Team Camp App, built with [TouchstoneJS](http://touchstonejs.io)
 
 Full Instructions and documentation coming as soon as we can publish them after the conference :)
 
@@ -9,8 +9,8 @@ Full Instructions and documentation coming as soon as we can publish them after 
 Build/run in the browser
 
 ``` bash
-git clone git@github.com:Thinkmill/reacteu-app.git
-cd reacteu-app
+git clone git@github.com:growthUx/teamcamp.git teamcamp
+cd teamcamp
 npm install
 npm start
 ```
@@ -19,7 +19,7 @@ npm start
 or, Build/run on Android -- **requires** cordova and the Android SDK to be installed
 
 ``` bash
-git clone git@github.com:Thinkmill/reacteu-app.git
+git clone git@github.com:growthUx/teamcamp.git teamcamp
 cd reacteu-app
 npm install
 npm run build
@@ -28,5 +28,4 @@ cordova run android
 ```
 
 ## License
-
-Copyright (c) 2015 Thinkmill. Made available under The MIT License (MIT).
+Made available under The MIT License (MIT).
