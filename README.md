@@ -2,8 +2,6 @@
 
 Team Camp App, built with [TouchstoneJS](http://touchstonejs.io)
 
-Full Instructions and documentation coming as soon as we can publish them after the conference :)
-
 ### Instructions
 
 Build/run in the browser
