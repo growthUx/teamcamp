@@ -18,23 +18,34 @@
 // add a gradient over the image
 
 .EventInfo__hero-inner {
-	#gradient .vertical(fade(@details-bg, 10%),@details-bg, -20%, 90%);
+	#gradient .vertical(fade(@details-bg, 50%),@details-bg, -20%, 90%);
 	height: 100%;
-	padding: 4em 2em 1.3em;
+	padding: 4em 1em 1.5em;
 	position: relative;
 	width: 100%;
 }
 
-
-.EventInfo__hero_subtitle {}
 .EventInfo__hero_title {
-	font-size: @font-size-xl;
-	font-weight: bold;
-	margin-bottom: 1em;
-	// margin-top: 1em;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
+
+.EventInfo__hero_subtitle {
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+
 .EventInfo__hero_address {
-	font-size: @font-size-xl;
+	font-size: @font-size-base;
+	margin-top: 1em;
+	line-height: 1.4;
+}
+
+.EventInfo__hero_date {
+	font-size: @font-size-sm;
+	margin-top: 1em;
 }
 
 
@@ -51,8 +62,13 @@
 // Summary
 // ------------------------------
 
+
+.EventInfo__summary_title {
+	margin-top: 1em;
+	font-size: @font-size-lg;
+}
 .EventInfo__summary {
-	padding: 2em;
+	padding: 1em;
 }
 
 

@@ -52,7 +52,17 @@
 	.avatar(60px);
 }
 
+// Emoji Icon
+//--------------------------------
 
+.ListItem--party::before {
+	.ion();
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 5px;
+	color: #EDD0A6;
+	content: @ionicon-var-wineglass;
+}
 
 
 // Type
@@ -75,7 +85,7 @@
 
 .ListHeader {
 	.retina-1px-border-top-and-bottom(rgba(0, 0, 0, 0.3));
-	background-color: darken(@body-bg, 3%);
+	background-color: darken(@body-bg, 10%);
 	font-size: @font-size-xs;
 	font-weight: 500;
 	line-height: 2.4;

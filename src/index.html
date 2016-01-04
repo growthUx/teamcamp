@@ -12,15 +12,16 @@
 			* Enable inline JS: add 'unsafe-inline' to default-src
 	-->
 	<head>
-		<!--- Debug CSP -->
+		<!-- Debug CSP
 		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' * 'unsafe-inline'; img-src * data:; connect-src *; style-src 'self' 'unsafe-inline';">
-
-		<!--- Production CSP
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data:; connect-src *; style-src 'self' 'unsafe-inline';">
 		-->
 
+		<!-- Production CSP -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data:; connect-src *; style-src 'self' 'unsafe-inline';">
+		 
+
 		<link rel="stylesheet" type="text/css" href="css/app.css">
-		<title>ReactEurope</title>
+		<title>Tradeshift Global Team Camp</title>
 
 		<!-- Full screen -->
 		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -28,7 +29,7 @@
 		<!-- iOS mobile-web-app -->
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-		<meta name="apple-mobile-web-app-title" content="ReactEurope" />
+		<meta name="apple-mobile-web-app-title" content="Tradeshift Global Team Camp" />
 
 		<link href="img/ios-icon.png" rel="apple-touch-icon" />
 		<link href="img/splash-screen.png" rel="apple-touch-startup-image" />
@@ -44,11 +45,13 @@
 
 		<!-- Other -->
 		<meta name="format-detection" content="telephone=no">
+
+		<!-- Firebase CDN -->
+		<script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
 	</head>
 	<body>
 		<div id="app"/>
 
-		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/react.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>

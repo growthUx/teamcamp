@@ -23,7 +23,7 @@ module.exports = React.createClass({
 				rightAction: emitter.emit.bind(emitter, 'navigationBarRightAction'),
 				rightButtonDisabled: !name,
 				rightLabel: name ? 'Edit' : '',
-				title: 'Me'
+				title: 'Handbook'
 			}
 		}
 	},
@@ -83,26 +83,12 @@ module.exports = React.createClass({
 		) : (
 			<Container direction="column">
 				<Container fill align="center" justify="center" direction="column" scrollable className="MeRegistration__body">
-					<div className="MeRegistration__heading">ReactEurope 2015</div>
-					<p className="MeRegistration__intro">Register to get the most out of ReactEurope&nbsp;2015!</p>
+					<div className="MeRegistration__heading">GTC Handbook</div>
+					<p className="MeRegistration__intro">Important information to get the most out of Global Team Camp 2016</p>
 					<div className="MeRegistration__benefits">
-						<div className="MeRegistration__benefit">
-							<div className="MeRegistration__benefit__icon ion-qr-scanner" />
-							<div className="MeRegistration__benefit__label">Enter the conference simply by having your QR code scanned</div>
-						</div>
-						<div className="MeRegistration__benefit">
-							<div className="MeRegistration__benefit__icon ion-person" />
-							<div className="MeRegistration__benefit__label">Make your profile public and view the full list of public attendees</div>
-						</div>
-						<div className="MeRegistration__benefit">
-							<div className="MeRegistration__benefit__icon ion-speakerphone" />
-							<div className="MeRegistration__benefit__label">Leave feedback for the speakers on your favourite talks</div>
-						</div>
 					</div>
 				</Container>
-				<Container align="center" justify="center" className="MeRegistration__footer">
-					<Link to="app:onboarding" transition="fade" className="MeRegistration__footer-button">Register</Link>
-				</Container>
+				
 			</Container>
 		);
 

@@ -156,7 +156,7 @@ var MainViewController = React.createClass({
 	}
 });
 
-var lastSelectedTab = 'me';
+var lastSelectedTab = 'event';
 var TabViewController = React.createClass({
 	contextTypes: { dataStore: React.PropTypes.object.isRequired },
 	mixins: [Sentry()],
@@ -232,16 +232,15 @@ var TabViewController = React.createClass({
 			<Container>
 				<ViewManager ref="vm" name="tabs" defaultView={this.state.selectedTab} onViewChange={this.onViewChange}>
 					<View name="schedule" component={require('./views/schedule')} />
-					<View name="people" me={me} component={require('./views/people')} />
+					<View name="people" component={require('./views/people')} />
 					<View name="event" component={require('./views/event')} />
-					<View name="me" me={me} component={require('./views/me')} />
-					<View name="me-edit" component={require('./views/me/edit')} />
+					<View name="me" component={require('./views/me')} />
 					<View name="about" component={require('./views/about')} />
 				</ViewManager>
 				<Tabs.Navigator value={selectedTab} onChange={this.selectTab}>
 					<Tabs.Tab value="schedule">
-						<span className="Tabs-Icon Tabs-Icon--schedule" />
-						<Tabs.Label>Schedule</Tabs.Label>
+						<span className="Tabs-Icon Tabs-Icon--calendar" />
+						<Tabs.Label>Agenda</Tabs.Label>
 					</Tabs.Tab>
 					<Tabs.Tab value="people">
 						<span className="Tabs-Icon Tabs-Icon--people" />
@@ -253,7 +252,7 @@ var TabViewController = React.createClass({
 					</Tabs.Tab>
 					<Tabs.Tab value="me">
 						<span className="Tabs-Icon Tabs-Icon--me" />
-						<Tabs.Label>Me</Tabs.Label>
+						<Tabs.Label>Handbook</Tabs.Label>
 					</Tabs.Tab>
 					{this.renderAboutTab()}
 				</Tabs.Navigator>

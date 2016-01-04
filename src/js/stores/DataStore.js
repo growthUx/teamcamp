@@ -1,7 +1,7 @@
 var EventEmitter = require('events').EventEmitter;
 
 var async = require('async');
-var defaultData = require('./default');
+var defaultData = require('./defaultTS');
 var defaults = require('defaults');
 var httpify = require('httpify');
 
@@ -23,7 +23,7 @@ function DataStore () {
 
 	// generic API queue
 	var self = this;
-	var url = 'https://reacteu-api.herokuapp.com/api';
+	var url = 'https://ts-gtc2016.firebaseio.com/api.json';
 	this.apiQueue = async.queue(function (opts, callback) {
 		var { authToken } = storage;
 		var { endpoint, data } = opts;
@@ -63,10 +63,10 @@ function DataStore () {
 	}, 1)
 
 	// every 30s, attempt synchronize, queues incase it takes a while
-	self.synchronize();
-	setInterval(function () {
-		self.synchronize();
-	}, this.cache.settings.refreshInterval || 30000);
+	// self.synchronize();
+	// setInterval(function () {
+	// 	self.synchronize();
+	// }, this.cache.settings.refreshInterval || 30000);
 }
 
 // mutates data

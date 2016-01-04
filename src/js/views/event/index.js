@@ -73,7 +73,7 @@ module.exports = React.createClass({
 	},
 
 	openAddress () {
-		window.open('http://maps.apple.com/?daddr=327+Rue+de+Charenton,+75012+Paris,+France', '_blank', 'toolbar=yes,location=no,transitionstyle=coververtical')
+		window.open('http://maps.apple.com/?daddr=Pere+IV+272-286,+Barcelona,+Spain', '_blank', 'toolbar=yes,location=no,transitionstyle=coververtical')
 	},
 
 	render () {
@@ -113,28 +113,16 @@ module.exports = React.createClass({
 			<Container fill scrollable={scrollable} ref="scrollContainer" className="EventInfo">
 				<div className="EventInfo__hero">
 					<div className="EventInfo__hero-inner">
-						<div className="EventInfo__hero_title">Espace Charenton</div>
-						<div className="EventInfo__hero_address">327, rue de Charenton 75012 Paris</div>
-						<Tappable onTap={this.openAddress} className="EventInfo__hero_button button">Get Directions</Tappable>
-						<div className="EventInfo__hero_date">July 02 &amp; 03 &mdash; Paris, France</div>
+					<div className="EventInfo__hero_title">Tradeshift</div>
+					<div className="EventInfo__hero_subtitle">Global Team Camp 2016</div>
+						<div className="EventInfo__hero_address"><strong>Melia Sky Barcelona</strong><br />Pere IV, 272-286<br />Barcelona, Spain<br />Tel: (34) 93 3672050</div>
+						<div className="EventInfo__hero_date">January 11 - 16, 2016</div>
+						
 					</div>
 				</div>
-				<div className="EventInfo__summary text-block">ReactEurope is the occasion to meet the core team and other awesome members of the community to learn, socialize and have fun in the beautiful city of Paris with great food, entertainment, connectivity, prizes and more!</div>
-				<div className="button-table">
-					<Tappable onTap={this.openTwitter.bind(this, eventTwitter)} className="button-table__item EventInfo__link">
-						<span className="button-table__item__icon EventInfo__link__icon--twitter ion-social-twitter" />
-						<div className="button-table__item__label">@ReactEurope</div>
-					</Tappable>
-					<Tappable onTap={this.openFacebook.bind(this, eventFacebook)} className="button-table__item EventInfo__link">
-						<span className="button-table__item__icon EventInfo__link__icon--facebook ion-social-facebook" />
-						<div className="button-table__item__label">ReactEurope</div>
-					</Tappable>
-				</div>
-				<PeopleList people={organisers} heading="Organisers" previousView="event" className="EventInfo__organisers" />
-				<div className="EventInfo__sponsors">
-					<div className="EventInfo__sponsors__heading">Sponsors</div>
-					{sponsors}
-				</div>
+				
+				<PeopleList people={organisers} heading="GTC 2016 Support Team" previousView="event" className="EventInfo__organisers" />
+				
 			</Container>
 		);
 	}

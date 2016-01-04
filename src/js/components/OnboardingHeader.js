@@ -8,9 +8,15 @@ module.exports = React.createClass({
 	render () {
 		return (
 			<Container align="center" justify="center" direction="column" className="onboarding-header">
-				<img src="./img/logo-mark.svg" className="onboarding-logo" />
-				<div className="onboarding-heading onboarding-heading-1">React Europe 2015</div>
-				<div className="onboarding-heading onboarding-heading-2">July 02 &amp; 03 &mdash; Paris, France</div>
+				<img src="./img/tradeshift-logo.svg" className="onboarding-logo" />
+				<div className="onboarding-heading onboarding-heading-1"><strong>Tradeshift</strong><br />Global Team Camp</div>
+				<div className="onboarding-heading onboarding-heading-2">January 11 &mdash; 16<br /><em>Barcelona, Spain</em></div>
+				<br />
+				<br />
+				<div className="animation-fade-enter">
+					<div className="onboarding-heading onboarding-heading-1 ">Welcome!</div>
+					<div className="onboarding-heading onboarding-heading-1">¡Bienvenido!</div>
+				</div>
 			</Container>
 		);
 	}

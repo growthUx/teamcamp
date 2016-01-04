@@ -36,39 +36,11 @@ module.exports = React.createClass({
 		return (
 			<Container scrollable={scrollable} className="About" ref="scrollContainer">
 				<div className="About-section">
-					<img src={settings.aboutLogo} className="About__logo" />
-					<div className="About__heading">Made by Thinkmill</div>
-					<div className="About__subheading">using these great tools</div>
-					<div className="About__tools About__list">
-						<div className="About__tool About__list__item"><img src="./img/touchstone-logo.svg" alt="TouchstoneJS" /></div>
-						<div className="About__tool About__list__item"><img src="./img/react-logo.svg" alt="React.js" /></div>
-						<div className="About__tool About__list__item"><img src="./img/keystone-logo.svg" alt="KeystoneJS" /></div>
-						<div className="About__tool About__list__item"><img src="./img/cordova-logo.png" alt="Cordova" /></div>
-					</div>
-					<div className="About__content" dangerouslySetInnerHTML={{__html: settings.aboutContent }} />
-					<Tappable onTap={this.handleButton} className="About__button button">{this.props.aboutButtonLabel}</Tappable>
+					<img src="./img/tradeshift-logo.svg" className="About__logo" />
+					<div className="About__heading">Tradeshift GTC 2016</div>
+					<div className="About__subheading">Place resources on this page.</div>
 				</div>
-				<div className="About-section">
-					<div className="About__subheading">Project Team</div>
-					<div className="About__team About__list">
-						<div className="About__team__member About__list__item">
-							<img src="./img/team/boris-bozic.jpeg" alt="Boris Bozic" />
-							Boris
-						</div>
-						<div className="About__team__member About__list__item">
-							<img src="./img/team/daniel-cousens.jpg" alt="Daniel Cousens" />
-							Daniel
-						</div>
-						<div className="About__team__member About__list__item">
-							<img src="./img/team/jed-watson.png" alt="Jed Watson" />
-							Jed
-						</div>
-						<div className="About__team__member About__list__item">
-							<img src="./img/team/joss-mackison.png" alt="Joss Mackison" />
-							Joss
-						</div>
-					</div>
-				</div>
+				
 			</Container>
 		);
 	}
