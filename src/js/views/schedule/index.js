@@ -97,172 +97,184 @@ module.exports = React.createClass({
 
 		return (
 			<Container scrollable={scrollable} ref="scrollContainer">
-				<div className="ListHeader ListHeader--sticky">Sunday - January 10, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 AM - 11:00 AM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Sunday - January 10, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 AM - 11:00 AM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">11:00 AM - 10:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+						</div>
 					</div>
 				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">11:00 AM - 10:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Monday - January 11, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 AM - 12:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">12:00 PM - 1:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Lunch</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">1:00 PM - 4:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">4:00 PM - 4:30 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Break</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">4:30 PM - 8:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">8:00 PM - 11:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">New Hires and<br />Veteran Dinner</div>
+						</div>
 					</div>
 				</div>
-				<div className="ListHeader ListHeader--sticky">Monday - January 11, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Tuesday - January 12, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 AM - 12:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">12:00 PM - 1:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Lunch</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">1:00 PM - 4:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">4:00 PM - 4:30 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Break</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">4:30 PM - 7:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Dinner</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 PM - Midnight</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
 					</div>
 				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 AM - 12:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Wednesday - January 13, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 AM - 11:00 AM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">11:00 AM - 2:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Soccer/Football Game</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">2:00 PM - 7:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Global Dinner</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 PM - ?</div>
+							<div className="ListItem__heading ScheduleItem__heading ListItem--party">Party!</div>
+						</div>
 					</div>
 				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">12:00 PM - 1:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Lunch</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Thursday - January 14, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 AM - 7:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Department Camp<br />Hackathon</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">Department Dinner</div>
+						</div>
+					</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">9:00 PM - Midnight</div>
+							<div className="ListItem__heading ScheduleItem__heading">Department Camp<br />Hackathon (cont.)</div>
+						</div>
 					</div>
 				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">1:00 PM - 4:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">4:00 PM - 4:30 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Break</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">4:30 PM - 8:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Leadership Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">8:00 PM - 11:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">New Hires and<br />Veteran Dinner</div>
-					</div>
-				</div>
-				<div className="ListHeader ListHeader--sticky">Tuesday - January 12, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 AM - 12:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">12:00 PM - 1:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Lunch</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">1:00 PM - 4:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">4:00 PM - 4:30 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Break</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">4:30 PM - 7:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Dinner</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 PM - Midnight</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="ListHeader ListHeader--sticky">Wednesday - January 13, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 AM - 9:00 AM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Breakfast</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 AM - 11:00 AM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">11:00 AM - 2:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Soccer/Football Game</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">2:00 PM - 7:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Team Camp</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Global Dinner</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 PM - ?</div>
-						<div className="ListItem__heading ScheduleItem__heading ListItem--party">Party!</div>
-					</div>
-				</div>
-				<div className="ListHeader ListHeader--sticky">Thursday - January 14, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 AM - 7:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Department Camp<br />Hackathon</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 PM - 9:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">Department Dinner</div>
-					</div>
-				</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">9:00 PM - Midnight</div>
-						<div className="ListItem__heading ScheduleItem__heading">Department Camp<br />Hackathon (cont.)</div>
-					</div>
-				</div>
-				<div className="ListHeader ListHeader--sticky">Friday - January 15, 2016</div>
-				<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
-					<div className="ListItem__content ScheduleItem__content">
-						<div className="ListItem__text ScheduleItem__text">7:00 AM - 11:00 PM</div>
-						<div className="ListItem__heading ScheduleItem__heading">BSG Camp<br />Hackathon</div>
+				<div className="ListHeader-Wrapper">
+					<div className="ListHeader ListHeader--sticky">Friday - January 15, 2016</div>
+					<div className="Tappable-inactive ListItem ScheduleItem ScheduleItem--other">
+						<div className="ListItem__content ScheduleItem__content">
+							<div className="ListItem__text ScheduleItem__text">7:00 AM - 11:00 PM</div>
+							<div className="ListItem__heading ScheduleItem__heading">BSG Camp<br />Hackathon</div>
+						</div>
 					</div>
 				</div>
 			</Container>

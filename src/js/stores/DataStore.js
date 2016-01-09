@@ -23,7 +23,7 @@ function DataStore () {
 
 	// generic API queue
 	var self = this;
-	var url = 'https://ts-gtc2016.firebaseio.com/api.json';
+	var url = 'https://ts-gtc2016.firebaseio.com/api';
 	this.apiQueue = async.queue(function (opts, callback) {
 		var { authToken } = storage;
 		var { endpoint, data } = opts;

@@ -8,13 +8,12 @@ module.exports = React.createClass({
 	render () {
 		return (
 			<Container align="center" justify="center" direction="column" className="onboarding-header">
-				<img src="./img/tradeshift-logo.svg" className="onboarding-logo" />
-				<div className="onboarding-heading onboarding-heading-1"><strong>Tradeshift</strong><br />Global Team Camp</div>
-				<div className="onboarding-heading onboarding-heading-2">January 11 &mdash; 16<br /><em>Barcelona, Spain</em></div>
-				<br />
+				<img src="./img/front_badge.svg" className="onboarding-logo" />
+				<div className="onboarding-heading onboarding-heading-1"><strong>TRADESHIFT</strong><br />Global Team Camp</div>
+				<div className="onboarding-heading onboarding-heading-2">January 10 - 16, 2016</div>
 				<br />
 				<div className="animation-fade-enter">
-					<div className="onboarding-heading onboarding-heading-1 ">Welcome!</div>
+					<div className="onboarding-heading onboarding-heading-1">Welcome!</div>
 					<div className="onboarding-heading onboarding-heading-1">¡Bienvenido!</div>
 				</div>
 			</Container>
